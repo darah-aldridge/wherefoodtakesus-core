@@ -65,6 +65,8 @@ window.wftuInitLocationMaps = function () {
 			if ( location.website ) {
 				content += '<a href="' + location.website + '" target="_blank" rel="noopener">Website</a>';
 			}
+			var directionsUrl = 'https://www.google.com/maps/dir/?api=1&destination=' + location.lat + ',' + location.lng;
+content += ' <a href="' + directionsUrl + '" target="_blank" rel="noopener">Get Directions</a>';
 			content += '</div>';
 
 			marker.addListener( 'click', function () {
