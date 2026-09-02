@@ -15,3 +15,5 @@ if (! defined('ABSPATH')) {
 require_once plugin_dir_path(__FILE__) . 'includes/acf-settings.php';
 require_once plugin_dir_path(__FILE__) . 'includes/post-types.php';
 require_once plugin_dir_path( __FILE__ ) . 'includes/blocks.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/locations-query.php';
+require_once plugin_dir_path( __FILE__ ) . 'includes/rest-api.php';

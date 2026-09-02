@@ -19,7 +19,7 @@ window.wftuInitLocationMaps = function () {
 		}
 
 		var markerIcons = {
-            hike: '/wp-content/uploads/2026/09/map-pin-food-and-drink.svg',
+            hike: '/wp-content/uploads/2026/09/map-pin-hiking.svg',
             sight: '/wp-content/uploads/2026/09/map-pin-sights.svg',
             'food & drink': '/wp-content/uploads/2026/09/map-pin-food-and-drink.svg',
             'default': '/wp-content/uploads/2026/09/map-pin-default.svg',
