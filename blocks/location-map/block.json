@@ -1,0 +1,17 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "wherefoodtakesus/location-map",
+    "title": "Location Map",
+    "category": "widgets",
+    "icon": "location-alt",
+    "description": "Displays a map of the locations linked to this post.",
+    "supports": {
+        "html": false,
+        "multiple": false
+    },
+    "textdomain": "wherefoodtakesus-core",
+    "editorScript": "file:./edit.js",
+    "viewScript": "file:./view.js",
+    "render": "file:./render.php"
+}
