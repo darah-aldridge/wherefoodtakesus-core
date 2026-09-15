@@ -29,7 +29,7 @@ foreach ( $locations as $location ) {
 		'website'            => get_field( 'website', $location_id ),
 		'description'        => get_field( 'description', $location_id ),
 		'type'               => get_field( 'type', $location_id ),
-		'thumbnail'          => get_the_post_thumbnail_url( $location_id, 'medium' ),
+		// 'thumbnail'          => get_the_post_thumbnail_url( $location_id, 'medium' ),
 	);
 }
 
